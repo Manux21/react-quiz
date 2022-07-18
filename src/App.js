@@ -1,11 +1,17 @@
 import React, { Component } from 'react'
+import Layout from "./hoc/Layout/layout"
+
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <h1>Hello React!</h1>
-      </div>
+      <Layout>
+
+
+        <div style={{width: 400, border: '1px solid black'}}>
+          <h1>Layout works</h1>
+        </div>
+      </Layout>
     )
   }
 }
